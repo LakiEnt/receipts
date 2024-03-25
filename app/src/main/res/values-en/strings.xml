@@ -1,15 +1,132 @@
+
 <resources>
-    <string name="app_name">Receipts</string>
+    <string name="app_name">Recipes</string>
     <string name="lang_ru">Russian</string>
     <string name="lang_en">English</string>
     <string name="lang_es">Spanish</string>
-    <string name="start_timer">Start</string>
+    <string name="btn_lang">SELECT LANGUAGE</string>
+    <string name="btn_filter_type">Filter by Type</string>
+    <string name="btn_filter_name">Filter by Name</string>
+    <string name="start_timer">Start Timer</string>
     <string name="end_timer">Stop</string>
     <string name="sec">sec.</string>
-    <string name="remain">Remain</string>
-    <string name="start_receipt">Listen to audio receipt</string>
+    <string name="remain">Remaining</string>
+    <string name="steps">Steps: </string>
+    <string name="bon_appetite">Bon Appétit!</string>
+    <string name="start_receipt">Listen to Recipe</string>
+    <string name="receipt_easy">Easy</string>
+    <string name="receipt_mid">Medium</string>
+    <string name="receipt_hard">Hard</string>
+    <string name="ingidients">Ingredients</string>
+    <string name="receipt_card_name">Name</string>
+    <string name="receipt_card_time">Preparation Time</string>
+    <string name="receipt_card_difficult">Difficulty</string>
+    <string name="receipt_card_type">Dish Type</string>
+    <string name="borcht_name">Borscht</string>
+    <string name="borcht_time">5 hours</string>
+    <string name="olady_name">Grandmas Pancakes</string>
+    <string name="sirniks">Cottage Cheese Pancakes</string>
+    <string name="deflope">Deflope made from palaba with kacius seeds</string>
+    <string name="time_day">24 hours</string>
+    <string name="time_half">30 minutes</string>
+    <string name="type_soup">Soup</string>
+    <string name="type_breakfast">Breakfast</string>
+    <string name="type_delicates">Delicacy</string>
+    <string name="difficult_easy">Easy</string>
+    <string name="difficult_middle">Medium</string>
+    <string name="difficult_hard">Hard</string>
+    <string name="difficult_extra_hard">Very Hard</string>
+    <string name="steps_for_sirnik">
+    "1. In a large bowl, mix cottage cheese, eggs, sugar, vanilla extract (if using), and a pinch of salt. Mix well until smooth.\n" +
+    "2. Gradually add wheat flour, continuing to mix, until the dough becomes thick and holds its shape.\n" +
+    "3. Heat a frying pan with sunflower oil over medium heat.\n" +
+    "4. Form small balls from the cottage cheese dough and slightly flatten them to resemble syrniki.\n" +
+    "5. Roll each syrnik in a small amount of flour to prevent sticking to the pan and give the syrniki a tasty crust.\n" +
+    "6. Place the syrniki on the heated frying pan and fry them for 2-3 minutes on each side until they become golden brown and cooked through.\n" +
+    "7. After frying, place the cooked syrniki on a paper towel to remove excess oil.\n" +
+    "8. Serve the syrniki hot, sprinkled with powdered sugar and with fresh fruits, berries, or jam as desired."
+</string>
 
+    <string name="ingridients_for_sirnik">
+    "• 500 g cottage cheese (can use low-fat or medium-fat)\n" +
+    "• 2 eggs\n" +
+    "• 4 tablespoons sugar\n" +
+    "• 1 teaspoon vanilla extract (optional)\n" +
+    "• 3-4 tablespoons wheat flour\n" +
+    "• Pinch of salt\n" +
+    "• Sunflower oil for frying"
+</string>
 
+    <string name="ingridients_for_olady">
+    "• 1 large egg\n" +
+    "• 1 cup (about 200 ml) milk\n" +
+    "• 1 cup (about 120-150 g) flour\n" +
+    "• 2 tablespoons sugar\n" +
+    "• 1 teaspoon baking powder\n" +
+    "• Pinch of salt\n" +
+    "• Sunflower oil for frying\n" +
+    "• Optional additional ingredients: berries, sliced fruits, raisins, nuts, etc."
+</string>
 
+    <string name="steps_for_olady">
+    "1. In a bowl, beat the egg with a fork or mixer until homogeneous.\n" +
+    "2. Add milk and beat until well combined.\n" +
+    "3. Gradually add flour, continuing to beat to avoid lumps.\n" +
+    "4. Add sugar, baking powder, and a pinch of salt. Beat the batter until smooth and homogeneous.\n" +
+    "5. Let the batter rest for 10-15 minutes to allow the flour to slightly swell.\n" +
+    "6. Heat a frying pan over medium heat and add a little sunflower oil.\n" +
+    "7. Pour a small amount of batter onto the pan to form pancakes of desired size (usually about 1/4 cup of batter per pancake).\n" +
+    "8. Fry the pancakes on one side until bubbles appear on the surface and the bottom is golden brown, then flip them and fry on the other side.\n" +
+    "9. Repeat the process with the remaining batter, adding sunflower oil to the pan as needed.\n" +
+    "10. After frying, place the pancakes on a paper towel to remove excess oil.\n" +
+    "11. Serve the pancakes hot with honey, syrup, fresh berries, fruits, or powdered sugar as desired."
+</string>
 
+    <string name="steps_for_deflope">
+    "1. Prepare the palapa by peeling it and slicing it into thin slices.\n" +
+    "2. In a deep bowl, beat eggs with a fork. Add milk, flour, sugar, vanilla extract, and a pinch of salt. Mix well until the batter is smooth without lumps.\n" +
+    "3. Coat the slices of palapa in the batter to evenly cover them.\n" +
+    "4. Heat a frying pan with sunflower oil over medium heat.\n" +
+    "5. Fry the battered slices of palapa on both sides until golden brown and cooked through.\n" +
+    "6. Once the palapa slices are ready, transfer them to a plate.\n" +
+    "7. Sprinkle the cooked deflope with cashew seeds on top for added texture and flavor.\n" +
+    "8. Serve the palapa deflope with cashew seeds hot as a main dish or dessert, sprinkled with powdered sugar and with fresh fruits or berries as desired."
+</string>
+
+    <string name="ingidients_for_deflope">
+    "• 500 g palapa\n" +
+    "• 100 g cashew seeds\n" +
+    "• 2 eggs\n" +
+    "• 100 ml milk\n" +
+    "• 50 g flour\n" +
+    "• 50 g sugar\n" +
+    "• 1 tsp vanilla extract\n" +
+    "• Pinch of salt\n" +
+    "• Sunflower oil for frying"
+</string>
+    <string name="steps_for_borsht">
+    "1. Cut the beef into medium-sized pieces. Put the meat in a large pot and cover with cold water so that the meat is completely submerged. Bring to a boil, then reduce the heat and simmer until the meat is tender (usually about 1-1.5 hours). Skim off any foam that forms on the surface of the pot. \n"
+    "\n"
+    "2. While the meat is cooking, prepare the vegetables. Peel and chop the beets, potatoes, onion, and carrots. Also, chop the cabbage and finely chop the garlic.\n"
+    "3. When the meat is almost done, add the chopped beets and potatoes to the pot. Cook until the vegetables are tender.\n"
+    "4. In a separate skillet, sauté the chopped onion and carrots until soft and golden brown. Add the tomato paste and sauté for a few more minutes.\n"
+    "5. Add the sautéed onion and carrots to the pot with the broth and vegetables. Also, add the chopped cabbage and garlic.\n"
+    "6. Continue to simmer the borscht over medium heat for another 10-15 minutes to allow all the flavors to combine.\n"
+    "7. Then add salt, pepper, and vinegar to taste. Adjust the amount of vinegar according to your preference.\n"
+    "8. Serve the borscht hot, garnished with sour cream and fresh herbs if desired. Borscht is usually served with black bread or dumplings.\n"
+</string>
+    <string name="ingridients_for_bosht">
+    "• 500g beef\n"
+            "• 2-3 large beets\n"
+            "• 2-3 medium potatoes\n"
+            "• 1 large onion\n"
+            "• 1-2 carrots\n"
+            "• 1/4 cabbage\n"
+            "• 2-3 cloves of garlic\n"
+            "• 2-3 tablespoons of tomato paste\n"
+            "• 2-3 bay leaves\n"
+            "• Salt and pepper to taste\n"
+            "• Vinegar to taste\n"
+            "• Sour cream and herbs for serving"
+</string>
 </resources>

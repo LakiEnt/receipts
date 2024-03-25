@@ -1,14 +1,132 @@
 <resources>
-    <string name="app_name">Recepe</string>
+    <string name="app_name">Recetas</string>
     <string name="lang_ru">Ruso</string>
     <string name="lang_en">Inglés</string>
     <string name="lang_es">Español</string>
-    <string name="start_timer">Comenzar</string>
+    <string name="btn_lang">SELECCIONAR IDIOMA</string>
+    <string name="btn_filter_type">Filtrar por Tipo</string>
+    <string name="btn_filter_name">Filtrar por Nombre</string>
+    <string name="start_timer">Iniciar Temporizador</string>
     <string name="end_timer">Detener</string>
-    <string name="sec">sec.</string>
-    <string name="remain">Izquierda</string>
-    <string name="start_receipt">Escucha la receta</string>
+    <string name="sec">seg.</string>
+    <string name="remain">Restante</string>
+    <string name="steps">Pasos: </string>
+    <string name="bon_appetite">¡Buen provecho!</string>
+    <string name="start_receipt">Escuchar Receta</string>
+    <string name="receipt_easy">Fácil</string>
+    <string name="receipt_mid">Medio</string>
+    <string name="receipt_hard">Difícil</string>
+    <string name="ingidients">Ingredientes</string>
+    <string name="receipt_card_name">Nombre</string>
+    <string name="receipt_card_time">Tiempo de Preparación</string>
+    <string name="receipt_card_difficult">Dificultad</string>
+    <string name="receipt_card_type">Tipo de Plato</string>
+    <string name="borcht_name">Borsch</string>
+    <string name="borcht_time">5 horas</string>
+    <string name="olady_name">Panqueques de la Abuela</string>
+    <string name="sirniks">Panqueques de Requesón</string>
+    <string name="deflope">Deflope hecho de palaba con semillas de kacius</string>
+    <string name="time_day">24 horas</string>
+    <string name="time_half">30 minutos</string>
+    <string name="type_soup">Sopa</string>
+    <string name="type_breakfast">Desayuno</string>
+    <string name="type_delicates">Delicadeza</string>
+    <string name="difficult_easy">Fácil</string>
+    <string name="difficult_middle">Intermedio</string>
+    <string name="difficult_hard">Difícil</string>
+    <string name="difficult_extra_hard">Muy Difícil</string>
 
+    <string name="steps_for_sirnik">
+    "1. En un bol grande, mezcla el queso cottage, los huevos, el azúcar, el extracto de vainilla (si se usa) y una pizca de sal. Mezcla bien hasta que quede suave.\n" +
+    "2. Agrega gradualmente la harina de trigo, continúa mezclando, hasta que la masa se vuelva espesa y mantenga su forma.\n" +
+    "3. Calienta una sartén con aceite de girasol a fuego medio.\n" +
+    "4. Forma pequeñas bolas con la masa de queso cottage y aplánalas ligeramente para que se asemejen a los syrniki.\n" +
+    "5. Enharina cada syrnik con una pequeña cantidad de harina para evitar que se peguen a la sartén y para que tengan una corteza sabrosa.\n" +
+    "6. Coloca los syrniki en la sartén caliente y fríelos durante 2-3 minutos por cada lado, hasta que estén dorados y cocidos por completo.\n" +
+    "7. Después de freír, coloca los syrniki cocidos en un papel absorbente para eliminar el exceso de aceite.\n" +
+    "8. Sirve los syrniki calientes, espolvoreados con azúcar glass y acompañados de frutas frescas, bayas o mermelada al gusto."
+</string>
 
+    <string name="ingridients_for_sirnik">
+    "• 500 g de queso cottage (se puede usar bajo en grasa o semidescremado)\n" +
+    "• 2 huevos\n" +
+    "• 4 cucharadas de azúcar\n" +
+    "• 1 cucharadita de extracto de vainilla (opcional)\n" +
+    "• 3-4 cucharadas de harina de trigo\n" +
+    "• Pizca de sal\n" +
+    "• Aceite de girasol para freír"
+</string>
 
+    <string name="ingridients_for_olady">
+    "• 1 huevo grande\n" +
+    "• 1 taza (aproximadamente 200 ml) de leche\n" +
+    "• 1 taza (aproximadamente 120-150 g) de harina\n" +
+    "• 2 cucharadas de azúcar\n" +
+    "• 1 cucharadita de polvo de hornear\n" +
+    "• Pizca de sal\n" +
+    "• Aceite de girasol para freír\n" +
+    "• Ingredientes adicionales opcionales: bayas, frutas cortadas, pasas, nueces, etc."
+</string>
+
+    <string name="steps_for_olady">
+    "1. En un tazón, bate el huevo con un tenedor o batidor hasta que esté homogéneo.\n" +
+    "2. Agrega la leche y bate hasta que estén bien combinados.\n" +
+    "3. Agrega gradualmente la harina, continuando batiendo para evitar la formación de grumos.\n" +
+    "4. Agrega el azúcar, el polvo de hornear y una pizca de sal. Bate la masa hasta que esté suave y homogénea.\n" +
+    "5. Deja reposar la masa durante 10-15 minutos para permitir que la harina se hinche ligeramente.\n" +
+    "6. Calienta una sartén a fuego medio y agrega un poco de aceite de girasol.\n" +
+    "7. Vierte una pequeña cantidad de masa en la sartén para formar los panqueques del tamaño deseado (normalmente alrededor de 1/4 de taza de masa por panqueque).\n" +
+    "8. Fríe los panqueques por un lado hasta que aparezcan burbujas en la superficie y estén dorados por debajo, luego dales la vuelta y fríelos por el otro lado.\n" +
+    "9. Repite el proceso con la masa restante, añadiendo aceite de girasol a la sartén según sea necesario.\n" +
+    "10. Después de freír, coloca los panqueques en un papel absorbente para eliminar el exceso de aceite.\n" +
+    "11. Sirve los panqueques calientes con miel, jarabe, bayas frescas, frutas o azúcar glass al gusto."
+</string>
+
+    <string name="steps_for_deflope">
+    "1. Prepara la palapa pelándola y cortándola en rodajas finas.\n" +
+    "2. En un bol profundo, bate los huevos con un tenedor. Agrega la leche, la harina, el azúcar, el extracto de vainilla y una pizca de sal. Mezcla bien hasta obtener una masa suave y sin grumos.\n" +
+    "3. Cubre las rodajas de palapa con la masa para cubrirlas uniformemente.\n" +
+    "4. Calienta una sartén con aceite de girasol a fuego medio.\n" +
+    "5. Fríe las rodajas de palapa cubiertas con masa por ambos lados hasta que estén doradas y cocidas por completo.\n" +
+    "6. Una vez listas las rodajas de palapa, transfiérelas a un plato.\n" +
+    "7. Espolvorea las deflope cocidas con semillas de cajú por encima para agregar textura y sabor.\n" +
+    "8. Sirve las deflope de palapa con semillas de cajú calientes como plato principal o postre, espolvoreadas con azúcar glass y acompañadas de frutas frescas al gusto."
+</string>
+
+    <string name="ingidients_for_deflope">
+    "• 500 g de palapa\n" +
+    "• 100 g de semillas de cajú\n" +
+    "• 2 huevos\n" +
+    "• 100 ml de leche\n" +
+    "• 50 g de harina\n" +
+    "• 50 g de azúcar\n" +
+    "• 1 cucharadita de extracto de vainilla\n" +
+    "• Pizca de sal\n" +
+    "• Aceite de girasol para freír"
+</string>
+    <string name="steps_for_borsht">
+    "1. Corte la carne de res en trozos de tamaño mediano. Coloque la carne en una olla grande y cubra con agua fría para que la carne esté completamente sumergida. Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento hasta que la carne esté tierna (generalmente alrededor de 1-1.5 horas). Elimine cualquier espuma que se forme en la superficie de la olla. \n"
+    "\n"
+    "2. Mientras la carne se cocina, prepare las verduras. Pele y corte las remolachas, papas, cebollas y zanahorias. También pique el repollo y pique finamente el ajo.\n"
+    "3. Cuando la carne esté casi lista, agregue las remolachas y papas cortadas a la olla. Cocine hasta que las verduras estén tiernas.\n"
+    "4. En un sartén aparte, sofría la cebolla y las zanahorias cortadas hasta que estén suaves y doradas. Agregue la pasta de tomate y sofría por unos minutos más.\n"
+    "5. Agregue la cebolla y las zanahorias salteadas a la olla con el caldo y las verduras. También agregue el repollo picado y el ajo.\n"
+    "6. Continúe cocinando el borscht a fuego medio durante otros 10-15 minutos para que todos los sabores se combinen.\n"
+    "7. Luego agregue sal, pimienta y vinagre al gusto. Ajuste la cantidad de vinagre según su preferencia.\n"
+    "8. Sirva el borscht caliente, adornado con crema agria y hierbas frescas si lo desea. El borscht generalmente se sirve con pan negro o bollos.\n"
+</string>
+    <string name="ingridients_for_bosht">
+    "• 500g de carne de res\n"
+            "• 2-3 remolachas grandes\n"
+            "• 2-3 papas medianas\n"
+            "• 1 cebolla grande\n"
+            "• 1-2 zanahorias\n"
+            "• 1/4 de repollo\n"
+            "• 2-3 dientes de ajo\n"
+            "• 2-3 cucharadas de pasta de tomate\n"
+            "• 2-3 hojas de laurel\n"
+            "• Sal y pimienta al gusto\n"
+            "• Vinagre al gusto\n"
+            "• Crema agria y hierbas para servir"
+</string>
 </resources>

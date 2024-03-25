@@ -68,7 +68,7 @@
                         android:id="@+id/receipt_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Название">
+                        android:text="@string/receipt_card_name">
 
                     </TextView>
 
@@ -77,14 +77,14 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ингридиенты">
+                        android:text="@string/ingidients">
                     </TextView>
 
                     <TextView
                         android:id="@+id/receipt_ingidients"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="тут будут сами ингидиентыв списком плюс •">
+                        android:text="">
                     </TextView>
 
                 </LinearLayout>
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Шаги:"
+                android:text="@string/steps"
                 android:layout_marginStart="20dp">
 
             </TextView>
@@ -103,14 +103,14 @@
                 android:id="@+id/steps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Тут будуд щаги через цикол плюс '1.'\n "
+                android:text=""
                 android:layout_marginStart="25dp">
             </TextView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Приятного аппетита!"
+                android:text="@string/bon_appetite"
                 android:layout_marginStart="20dp">
             </TextView>
 

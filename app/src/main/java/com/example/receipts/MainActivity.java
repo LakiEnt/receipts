@@ -57,33 +57,36 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // TODO: перевести на разные языки
+        String stepsForBorsht = getString(R.string.steps_for_borsht);
+        String ingidientsForBorsht = getString(R.string.ingridients_for_bosht);
 
-        String stepsForBorsht = "1. Нарежьте говядину на куски среднего размера. Положите мясо в большую кастрюлю и залейте холодной водой так, чтобы мясо было полностью покрыто. Доведите до кипения, затем уменьшите огонь и варите на медленном огне до мягкости мяса (обычно около 1-1,5 часов). Удаляйте пену, образующуюся на поверхности кастрюли. \n" +
-                "\n"+
-                "2. В то время как мясо варится, подготовьте овощи. Очистите и нарежьте свёклу, картофель, лук и морковь. Также нарежьте капусту и мелко нарежьте чеснок.\n"+
-                "3. Когда мясо почти готово, добавьте нарезанные свёклу и картофель в кастрюлю. Варите до тех пор, пока овощи не станут мягкими.\n"+
-                "4. В отдельной сковороде обжарьте нарезанный лук и морковь до мягкости и золотистого цвета. Добавьте томатную пасту и обжаривайте ещё несколько минут.\n"+
-                "5. Добавьте обжаренные лук и морковь в кастрюлю с бульоном и овощами. Добавьте также нарезанную капусту и чеснок.\n"+
-                "6. Продолжайте варить борщ на среднем огне ещё около 10-15 минут, чтобы все вкусы соединились.\n"+
-                "7. После этого добавьте соль, перец и уксус по вкусу. Регулируйте количество уксуса в зависимости от предпочтений.\n"+
-                "8. Подавайте борщ горячим, украсив каждую порцию сметаной и свежей зеленью по желанию. Подаётся борщ обычно с черным хлебом или пампушками.\n";
-        String ingidientsForBorsht = "• 500 г говядины \n" +
-                "• 2-3 крупных свёклы\n"+
-                "• 2-3 средних картофелины\n"+
-                "• 1 большая луковица\n"+
-                "• 1-2 моркови\n"+
-                "• 1/4 капусты\n"+
-                "• 2-3 зубчика чеснока\n"+
-                "• 2-3 столовые ложки томатной пасты\n"+
-                "• 2-3 лавровых листа\n"+
-                "• Соль и перец по вкусуа\n"+
-                "• Уксус по вкусу\n"+
-                "• Сметана и зелень для подачи";
+        String stepsForOlady = getString(R.string.steps_for_olady);
+        String ingidientsForOlady = getString(R.string.ingridients_for_olady);
 
-        receipts.add(new Receipt("Борщт", "5 часов", "средне", R.drawable.borcht, "Суп", stepsForBorsht, ingidientsForBorsht ));
-        receipts.add(new Receipt("Оладушки от бабушки", " 30 минут", "просто", R.drawable.olady, "Завтрак", stepsForBorsht, ingidientsForBorsht  ));
-        receipts.add(new Receipt("Сырники", "30 минут", " средне", R.drawable.sirniks, "Завтрак" , stepsForBorsht, ingidientsForBorsht ));
-        receipts.add(new Receipt("Дефлопе из палабы с семечками кациуса", "24 часа", " очень сложно", R.drawable.palaba, "Деликатес", stepsForBorsht, ingidientsForBorsht  ));
+        String stepsForSirnik = getString(R.string.steps_for_sirnik);
+        String ingidientsForSirnik = getString(R.string.ingridients_for_sirnik);
+
+        String stepsForDeflope = getString(R.string.steps_for_deflope);
+        String ingidientsForDeflope = getString(R.string.ingidients_for_deflope);
+
+        String nameBorsht = getString(R.string.borcht_name);
+        String timeBorsht = getString(R.string.borcht_time);
+
+        String nameOlady = getString(R.string.olady_name);
+        String nameSirniks= getString(R.string.sirniks);
+        String nameDeflope = getString(R.string.deflope);
+
+        String complexityEasy = getString(R.string.difficult_easy);
+        String complexityMiddle = getString(R.string.difficult_middle);
+        String complexityHard = getString(R.string.difficult_hard);
+        String complexityExtraHard = getString(R.string.difficult_extra_hard);
+        String[] types= {getString(R.string.type_breakfast), getString(R.string.type_delicates), getString(R.string.type_soup)};
+        String[] time = {getString(R.string.time_day), getString(R.string.time_half)};
+
+        receipts.add(new Receipt(nameBorsht, timeBorsht, complexityEasy, R.drawable.borcht, types[2], stepsForBorsht, ingidientsForBorsht ));
+        receipts.add(new Receipt(nameOlady, time[1], complexityMiddle, R.drawable.olady, types[0], stepsForOlady, ingidientsForOlady  ));
+        receipts.add(new Receipt(nameSirniks, time[1], complexityHard, R.drawable.sirniks, types[0] , stepsForSirnik, ingidientsForSirnik ));
+        receipts.add(new Receipt(nameDeflope, time[0], complexityExtraHard, R.drawable.palaba, types[1], stepsForDeflope, ingidientsForDeflope  ));
 
 
         ListView receiptList = findViewById(R.id.productList);

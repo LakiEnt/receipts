@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout3"
-        android:text="ВЫБРАТЬ ЯЗЫК"
+        android:text="@string/btn_lang"
         android:layout_marginStart="120sp"
         >
     </Button>
@@ -36,8 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-
-                android:text="Фильтр по типу" />
+                android:text="@string/btn_filter_type" />
 
             <Button
                 android:id="@+id/filter_name"
@@ -45,8 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-
-                android:text="Фильтр по имени" />
+                android:text="@string/btn_filter_name" />
 
         </LinearLayout>
 
