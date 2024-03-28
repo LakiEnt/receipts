@@ -31,7 +31,7 @@
                 android:id="@+id/receipt_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Name">
+                android:text="@string/receipt_card_name">
 
             </TextView>
 
@@ -39,22 +39,21 @@
                 android:id="@+id/receipt_time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Time">
+                android:text="@string/receipt_card_time">
 
             </TextView>
             <TextView
                 android:id="@+id/receipt_difficult"
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Difficult">
+                android:text="@string/receipt_card_difficult">
 
             </TextView>
             <TextView
                 android:id="@+id/receipt_type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Type">
+                android:text="@string/receipt_card_type">
 
             </TextView>
             <Button

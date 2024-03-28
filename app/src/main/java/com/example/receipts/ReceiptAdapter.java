@@ -48,12 +48,18 @@ class ReceiptAdapter extends ArrayAdapter<Receipt> {
         }
         final Receipt receipt = receiptList.get(position);
 
-        String text = R.string.receipt_card_name + ": " + receipt.getName();
+        String text = context.getString(R.string.receipt_card_name) + ": " + receipt.getName();
         viewHolder.nameView.setText(text);
 
-        viewHolder.timeView.setText(R.string.receipt_card_time + ": " + receipt.getTime());
-        viewHolder.difficultView.setText(R.string.receipt_card_difficult + ": " + receipt.getComplexity());
-        viewHolder.typeView.setText(R.string.receipt_card_type + ": " + receipt.getType());
+        text = context.getString(R.string.receipt_card_time) + ": " + receipt.getTime();
+        viewHolder.timeView.setText(text);
+
+        text = context.getString(R.string.receipt_card_difficult) + ": " + receipt.getComplexity();
+        viewHolder.difficultView.setText(text);
+
+        text = context.getString(R.string.receipt_card_type) + ": " + receipt.getType();
+        viewHolder.typeView.setText(text);
+
         viewHolder.imageView.setImageResource(receipt.getImage());
 
         viewHolder.buttonView.setOnClickListener(new View.OnClickListener() {
